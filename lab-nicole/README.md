@@ -1,8 +1,8 @@
 # vue-demo
 
-> A Vue.js project
+This application uses VueJS to render a Hello World application which dynamically updates the page with form field data.
 
-## Build Setup
+To run the application, go to your terminal and navigate into the lab-nicole folder.
 
 ``` bash
 # install dependencies
@@ -14,8 +14,6 @@ npm run dev
 # build for production with minification
 npm run build
 
-# build for production and view the bundle analyzer report
-npm run build --report
 ```
 
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+When you serve the app using ```npm run dev```, you can open your browser and navigate to ```http://localhost:8080```. 
