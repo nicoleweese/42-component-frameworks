@@ -3,7 +3,7 @@
     {{ msg }}
     {{ question }}
     <p>Who am I speaking with?:</p>
-    </p> {{ name }}</p>
+    <p> {{ name }}</p>
     <input v-model="name" placeholder="name">
     <p>How many pets would you like to own?</p>
     {{ pets }} <button v-on:click="pets -=1">-</button> <button v-on:click="pets += 1">+</button>
@@ -19,12 +19,12 @@ export default {
     return {
       msg: 'Hello World!',
       name: '',
-      pets: 0,
+      pets: 0
     }
   },
   methods: {
-    peace: function() {
-      alert('Sad to see you go!');
+    peace: function () {
+      alert('Sad to see you go!')
     }
   }
 }
